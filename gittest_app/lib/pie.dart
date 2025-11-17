@@ -47,6 +47,8 @@ class _PieState extends State<Pie> {
                 yValueMapper: (DeveloperData developers, _) => developers.developers,
                 dataLabelSettings: DataLabelSettings(isVisible: true),
                 enableTooltip: true,
+
+                
               )
             ],
           ),
