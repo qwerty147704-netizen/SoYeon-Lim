@@ -105,6 +105,8 @@ class _HomeState extends State<Home> {
       }else if(now.second % 2 != 0){
         color = Colors.red;
         setState(() {});
+      }else{
+        color = Colors.white;
       }
     }
   }
